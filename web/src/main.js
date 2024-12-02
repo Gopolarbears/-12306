@@ -6,6 +6,7 @@ import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/reset.css';
 import * as Icons from '@ant-design/icons-vue';
 
+
 const app= createApp(App);
 app.use(Antd).use(store).use(router).mount('#app');
 
